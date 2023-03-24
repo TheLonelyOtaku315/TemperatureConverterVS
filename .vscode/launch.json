@@ -6,12 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "jfxsample.main",
+            "projectName": "TemperatureConverterVS_7a124e2",
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-16/lib\" --add-modules javafx.controls,javafx.fxml"
+
+        },
+        {
+            "type": "java",
             "name": "Launch main",
             "request": "launch",
             "mainClass": "jfxsample.main",
             "projectName": "TemperatureConverterVS_48a3536f",
             "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-16/lib\" --add-modules javafx.controls,javafx.fxml"
-
         },
         {
             "type": "java",
