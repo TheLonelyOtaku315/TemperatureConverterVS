@@ -1,59 +1,52 @@
-# Temperature-Converter
+# Temperature Converter  
 
-This application application have 4 part : 
+An interactive temperature conversion application with multiple features and a user-friendly interface.  
 
-  1.Converter
-  
-  2.Setting
-  
-  3.History
-  
-  4.Help
-  
-There is also a menu bar that let you switch between scene.
+## Features  
 
+The application is divided into four main sections:  
 
-In the Coverter, there is a converter that let you convert temperature between Celsius, Fahrenheit and Kelvin.
-There is also key temperature like:
-  
-  -Abosult Zero
-  
-  -Boiling Point of Water
-  
-  -Frezing Point of Water
-  
-  -Room Temperature
-  
-  -Body Temperature
+1. **Converter**  
+   - Convert temperatures between Celsius, Fahrenheit, and Kelvin.  
+   - Includes key temperature references:  
+     - Absolute Zero  
+     - Boiling Point of Water  
+     - Freezing Point of Water  
+     - Room Temperature  
+     - Body Temperature  
+   - Displays the results using either a **Vertical Chart** or a **Horizontal Chart**.  
 
-This information will we show in the graph Vertical Chart or a Horizontal Chart.
+2. **Settings**  
+   Customize your experience with the following options:  
+   - **Number of History Items:** Set the maximum number of entries displayed in the history table.  
+   - **Dark Mode / Light Mode:** Switch between themes by changing the CSS file of all scenes.  
+   - **Number of Decimals:** Define the number of decimal places for conversions.  
+   - **Graph Orientation:** Choose between a Vertical or Horizontal Chart display.  
 
+3. **History**  
+   - A table logs all conversions performed in the application, showing:  
+     - **Date:** The date and time of the conversion.  
+     - **Information Type:** Indicates if the entry is a user conversion, a key temperature, or an error.  
+     - **Input Data:** The user-provided value for the conversion. For key temperatures, this will be blank. For errors, it will say "Error".  
+     - **Output Data:** The resulting temperature. For errors, it will say "Error".  
+   - Additional Features:  
+     - **Delete Column:** Remove specific entries from the table.  
+     - **Search Bar:** Quickly search for specific entries in the history.  
+     - **Clear History Button:** Delete all entries in the history table.  
 
-In the Setting, there will be 4 setting:
-  
-1. The numbers of items in teh History: What that setting do is to set the number of thing you want to see in the history table 
-  
-  2.Dark mode / Light mode: Change the css file of every Scene.
-  
-  3.Number of Decimal: Set the nu,ber of decimal during the convertion.
-  
-  4.Vertical Graph / Horizontal Graph: Let you switch between a Vertical and a Horizontal Chart
-        
-        
-In the History, there is a Table that have all the convertion did with the application, it give you different information like:
+4. **Help**  
+   - A slide show provides an overview of the application's functionality.  
+   - Navigation buttons allow you to move between slides.  
+   - The final slide redirects you to the **Converter** tab.  
 
-  -Date: the date and time of the convertion
-  
-  -Information Type: That will tell us if is a convertion made by the user or a key temperature or a error
-  
-  -Information enter: That will tell us the information you enter to make the convertion, if you selected a key temperature, it will be empty, if is a error, it will say error
-  
-  -Information given: That will tell us what temperature the application give you, if is a error it will say error
-  
-There is a delete column that let you delect a specific convertion that is in the table. There is also a Search bar that let you search in the in the Table of view. There is also a Button that let you clear the entire history.
+---
 
+## Navigation  
+The application includes a **Menu Bar** for seamless navigation between different sections.  
 
-In the Help, there is a slide show that also explain how the program work, there is a button that let you go to the next slide and a button that let you go to the previous slide. At the last slide, it will go to the converter tab.
+---
 
-
-Done by Tonny Zhao and Jeremy Vieria
+## Authors  
+This application was developed by:  
+- **Tonny Zhao**  
+- **Jeremy Vieria**  
